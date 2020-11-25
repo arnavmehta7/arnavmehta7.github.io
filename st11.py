@@ -97,13 +97,6 @@ loaded_model.summary()  # summarising a model
 
 #================================= Title Image ===========================
 st.text("""""")
-img_path_list = ['1.jpg']
-index = random.choice([0])
-image = Image.open(img_path_list[index])
-st.image(
- 	        image,
- 	        use_column_width=True,
- 	    )
 
 #================================= About =================================
 st.write("""
