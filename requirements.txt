@@ -2,3 +2,4 @@ tensorflow
 numpy
 opencv-python-headless
 keras
+streamlit==0.79.0
